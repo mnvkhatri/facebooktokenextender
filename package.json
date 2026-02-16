@@ -1,0 +1,28 @@
+{
+  "name": "facebook-token-manager",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/verify-watermark.js && next dev",
+    "build": "next build && node scripts/verify-watermark.js",
+    "start": "next start",
+    "lint": "next lint",
+    "check:watermark": "node scripts/verify-watermark.js"
+  },
+  "dependencies": {
+    "react": "^19",
+    "react-dom": "^19",
+    "next": "^16.1.6"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10",
+    "eslint": "^9",
+    "eslint-config-next": "^16.1.6"
+  }
+}
